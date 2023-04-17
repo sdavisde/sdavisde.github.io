@@ -15,9 +15,9 @@
             (function ($) {
             $(document).ready(function(){
                 $(function () {
-                    $("#Sneeze").hide();
+                    $("#BibleRecall").hide();
                     $("#Pokemon").hide();
-                    $("#AoeAnalytics").hide();
+                    $("#DependabotDashboard").hide();
                 });
             });
             }(jQuery));
@@ -92,34 +92,36 @@
     <div class="album py-5 bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-md-4" id="AoeAnalytics">
+                <div class="col-md-4" id="DependabotDashboard">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="../assets/esports_news.jpg" style="height: 300px; width: 100%; display: block;">
+                        <img class="card-img-top" src="../assets/dependabot.png" style="height: 300px; width: 100%; display: block;">
                         <div class="card-body">
                             <div class="card-text text-center">
-                                <h5>AOE Analytics</h5>
+                                <h5>Dependabot Dashboard</h5>
                                 <p class="lead">
-                                    A web-application myself and a team of students at A&M made 
-                                    in order to conglomerate multiple eSports news networks into one webpage.
-                                    Makes use of multiple APIs in order to track team stats, recent news on youtube and twitter,
-                                    and google login to save events.
+                                    A Spotify Backstage plugin that allows users to view and manage their
+                                    Dependabot alerts. This project was created with a team of 4 other developers
+                                    and sponsored by American Airlines. The user is able to view vulnerability trends
+                                    among all repositories in a github organization, as well as view and manage
+                                    individual alerts.
                                 </p>
                                 <a href="https://aoe-analytics.herokuapp.com/rl/">Check it out</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" id="Sneeze">
+                <div class="col-md-4" id="BibleRecall">
                     <div class="card mb-4 box-shadow">
                         <img class="card-img-top" src="../assets/sneeze.PNG" style="height: 300px; width: 100%; display: block;">
                         <div class="card-body">
                             <div class="card-text text-center">
-                                <h5>Sneeze</h5>
-                                <p class="lead">A retro-style video game I created with a team during the pandemic as part
-                                    of a game jam with the Texas A&M Game Developers. This game was a top-down puzzle game in which
-                                    the main goal was to infect the world by sneezing from person to person.
+                                <h5>Bible Recall</h5>
+                                <p class="lead">
+                                    A Next.js web application that aims to help users memorize bible verses.
+                                    The user is able to create an account, add verses to their library, and
+                                    complete a short game for each verse to test their memory. 
                                 </p>
-                                <a href="https://geirgie25.itch.io/sneeze">Check it out</a>
+                                <a href="https://biblerecall.app">Check it out</a>
                             </div>
                         </div>
                     </div>
@@ -151,8 +153,8 @@
     $(document).ready(function(){
         $(function () {
 
-            $('#AoeAnalytics').fadeIn(750, function() {
-                $('#Sneeze').fadeIn(750, function() {
+            $('#DependabotDashboard').fadeIn(750, function() {
+                $('#BibleRecall').fadeIn(750, function() {
                     $('#Pokemon').fadeIn(750);
                 });
             }); 
