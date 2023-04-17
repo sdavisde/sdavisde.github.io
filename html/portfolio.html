@@ -23,6 +23,9 @@
             }(jQuery));
         </script>
         <style>
+            .title_bold {
+                font-weight: bold;
+            }
             .dropdown-menu > a:hover, .dropdown-menu > a:focus {
                 background-color: rgb(184,208,223);
             }
@@ -52,15 +55,7 @@
                         <a href="../index.html" class="nav-item nav-link">Home</a>
                         <a href="aboutme.html" class="nav-item nav-link">About Me</a>
                         <a href="portfolio.html" class="nav-item nav-link active">Portfolio</a>
-                        <div class="nav-item dropdown">
-                            <a href="resume.html" class="nav-item nav-link dropdown-toggle"
-                                id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">Resume</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: rgb(203, 206, 207);">
-                                <a class="dropdown-item" href="resume.html">Software Engineering</a>
-                                <a class="dropdown-item" href="resume1.html">Cyber Security</a>
-                                <a class="dropdown-item" href="resume2.html">Audio and Video</a>
-                            </div>
-                        </div>
+                        <a href="resume.html" class="nav-item nav-link">Resume</a>
                         <a href="service.html" class="nav-item nav-link">Service</a>
                     </div>
                     <div class="navbar-nav ml-auto">
@@ -86,7 +81,7 @@
         <div class="jumbotron">
             <h1 class=display-4>My Portfolio</h1>
             <hr class="my-3">
-            <p class="lead">Just a bunch of cool things I'm passionate about</p>
+            <p class="lead">I am passionate about learning web development on the side. Here are a few of my favorite projects I've worked on.</p>
         </div>
     </div>
     <div class="album py-5 bg-light">
@@ -97,7 +92,7 @@
                         <img class="card-img-top" src="../assets/dependabot.png" style="height: 300px; width: 100%; display: block;">
                         <div class="card-body">
                             <div class="card-text text-center">
-                                <h5>Dependabot Dashboard</h5>
+                                <h5 class="title_bold">Dependabot Dashboard</h5>
                                 <p class="lead">
                                     A Spotify Backstage plugin that allows users to view and manage their
                                     Dependabot alerts. This project was created with a team of 4 other developers
@@ -105,17 +100,17 @@
                                     among all repositories in a github organization, as well as view and manage
                                     individual alerts.
                                 </p>
-                                <a href="https://aoe-analytics.herokuapp.com/rl/">Check it out</a>
+                                <a href="https://github.com/American-Capstones/TAMU-Spring-2023">Check it out</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4" id="BibleRecall">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="../assets/sneeze.PNG" style="height: 300px; width: 100%; display: block;">
+                        <img class="card-img-top" src="../assets/bible.jpg" style="height: 300px; width: 100%; display: block;">
                         <div class="card-body">
                             <div class="card-text text-center">
-                                <h5>Bible Recall</h5>
+                                <h5 class="title_bold">Bible Recall</h5>
                                 <p class="lead">
                                     A Next.js web application that aims to help users memorize bible verses.
                                     The user is able to create an account, add verses to their library, and
@@ -131,7 +126,7 @@
                         <img class="card-img-top" src="../assets/pokeball.PNG" style="height: 300px; width: 100%; display: block;">
                         <div class="card-body">
                             <div class="card-text text-center">
-                                <h5>Pokemon on CMD</h5>
+                                <h5 class="title_bold">Pokemon on CMD</h5>
                                 <p class="lead">
                                     A recreation of Pokemon I made in python using the terminal.
                                     Implemented a catching system, team management, singleplayer and multiplayer battles.
